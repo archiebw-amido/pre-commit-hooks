@@ -1,8 +1,0 @@
-- id: sops_encrypt
-  name: Sops encrypt
-  description: Encrypts all *.enc* files using sops.
-  entry: sops-encrypt.sh
-  language: script
-  files: (.*\.enc(\.)*.*)$
-  exclude: ^$
-  

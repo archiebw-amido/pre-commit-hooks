@@ -3,5 +3,6 @@
   description: Encrypts all *.enc* files using sops.
   entry: sops-encrypt.sh
   language: script
-  files: (*.enc*)$
+  files: (.*\.enc(\.)*.*)$
+  exclude: ^$
   
